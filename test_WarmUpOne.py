@@ -54,6 +54,19 @@ class TestWarmUp1(unittest.TestCase):
         result = parrot_trouble(False, 6)
         self.assertEquals(result, False)
 
+#makes 10
+
+    def test_sum_is_ten(self):
+        result = makes10(5,5)
+        self.assertEquals(result, True)
+
+    def test_a_is_ten(self):
+        result = makes10(10, 3)
+        self.assertEquals(result, True)
+
+    def test_false(self):
+        result = makes10(5,3)
+        self.assertEquals(result, False)
 
 # is this file being run directly by python or imported
 if __name__ == '__main__':
