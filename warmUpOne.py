@@ -16,3 +16,10 @@ def sum_double(a, b):
         return (a+b)*2
     else: 
         return a+b
+
+def diff21(n):
+    result = abs(n-21)
+    if n > 21:
+        return result * 2
+    else:
+        return result

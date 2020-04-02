@@ -34,6 +34,16 @@ class TestWarmUp1(unittest.TestCase):
         result = sum_double(2,2)
         self.assertEquals(result, 8)
 
+#diff21
+
+    def test_diff21_under21(self):
+        result = diff21(10)
+        self.assertEquals(result, 11)
+
+    def test_diff21_over21(self):
+        result = diff21(25)
+        self.assertEquals(result, 8)
+
 
 # is this file being run directly by python or imported
 if __name__ == '__main__':
