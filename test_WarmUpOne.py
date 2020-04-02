@@ -44,6 +44,16 @@ class TestWarmUp1(unittest.TestCase):
         result = diff21(25)
         self.assertEquals(result, 8)
 
+#parrot trouble
+
+    def test_in_trouble(self):
+        result = parrot_trouble(True, 6)
+        self.assertEquals(result, True)
+
+    def test_not_in_trouble(self):
+        result = parrot_trouble(False, 6)
+        self.assertEquals(result, False)
+
 
 # is this file being run directly by python or imported
 if __name__ == '__main__':
