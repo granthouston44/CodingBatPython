@@ -24,6 +24,16 @@ class TestWarmUp1(unittest.TestCase):
         result = monkey_trouble(True, False)
         self.assertEquals(result, False)
 
+# sum double
+
+    def test_sum_double_1_2(self):
+        result = sum_double(1,2)
+        self.assertEquals(result, 3)
+
+    def test_sum_double_2_2(self):
+        result = sum_double(2,2)
+        self.assertEquals(result, 8)
+
 
 # is this file being run directly by python or imported
 if __name__ == '__main__':
